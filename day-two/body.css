@@ -1,0 +1,160 @@
+.grid {
+    display: inline-grid;
+    grid-template-columns: 280px 480px;
+
+    column-gap: 120px;
+
+}
+
+.box-one {
+    display: block;
+    color: white;
+    border-radius: 6%;
+
+    width: 280px;
+    height: 500px;
+    background-color: #19bffd;
+
+    padding: 50px 50px 50px 40px;
+
+    font-size: 20px;
+}
+
+.box-one h3 {
+    width: 50%;
+    font-size: 35px;
+    line-height: 110%;
+    margin-bottom: 40px;
+}
+
+.tell img {
+    height: 50px;
+    filter: invert();
+    cursor: pointer;
+}
+
+
+.email img {
+    margin-top: 40px;
+
+    height: 40px;
+    filter: invert();
+    cursor: pointer;
+}
+
+.social-links {
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    filter: invert();
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.box-two {
+    display: block;
+    color: white;
+
+    position: relative;
+    border-radius: 30px;
+
+    width: 480px;
+    height: 500px;
+    background-color: white;
+
+    padding: 50px 50px 50px 30px;
+
+
+    color: black;
+
+    box-shadow: 0px 0px 9px 2px lightgrey; /* adds shadows to all sides*/
+}
+
+.box-two h4 {
+    display: block;
+
+    font-size: 20px;
+    width: 390px;
+    padding-bottom: 30px;
+}
+
+.input-boxes {
+    display: grid;
+    row-gap: 20px;
+
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.input-boxes p {
+    margin-bottom: 0px;
+}
+
+
+
+.input-boxes input {
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    height: 30px;
+}
+
+.message p {
+    margin-bottom: 12px;
+}
+
+.message textarea {
+    max-width: 458px;
+    min-width: 250px;
+    max-height: 200px;
+    min-height: 30px;
+
+    overflow: hidden; /*hides or removes the scroll bars*/
+
+    font-size: 18px;
+
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.send-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+
+    right: 45px;
+    bottom: 30px;
+
+    height: 50px;
+    padding-right: 18px;
+    margin-top: 5px;
+
+    justify-content: right;
+    align-items: center;
+}
+
+.send-button{
+    padding: 10px 20px 10px 20px;
+
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+
+    background-color: #4cb934;
+    color: white;
+    letter-spacing: 2px;
+
+    cursor: pointer;
+}
