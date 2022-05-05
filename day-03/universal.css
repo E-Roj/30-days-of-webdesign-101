@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial;
+}
+
+body {
+    background-image: linear-gradient(135deg, rgb(117, 117, 226), rgb(206, 105, 189));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
